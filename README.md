@@ -41,6 +41,10 @@ Usage of sensu-prometheus-collector:
         Prometheus exporter basic auth user.
   -metric-prefix string
         Metric name prefix, only supported by line protocol output formats.
+  -metrics-except string
+      Metrics names startswith prefix to keep, comma separated.
+  -metrics-ignore string
+      Metrics names startswith prefix to ignore, comma separated.
   -output-format string
         The check output format to use for metrics {influx|graphite|json}. (default "influx")
   -prom-query string
