@@ -4,7 +4,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-## [1.3.2] - 2020-06-19
+## [1.3.3] - 2020-06-10
+### Fixed
+- Fixed metrics-except conflicts with metrics-ignore
+
+## [1.3.2] - 2020-06-09
 ### Changed
 - Added tag support for graphite output format https://github.com/aelsys/sensu-prometheus-collector/commits/fix_graphite_tag
 - Added `metrics-except` and `metrics-ignore` parameters for metrics filtering
